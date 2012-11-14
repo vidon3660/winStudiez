@@ -7,9 +7,9 @@
     <ProjectGuid>{47DB2926-4FE2-46F0-8FDD-003B4AFFFBA1}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Windows_8_Application</RootNamespace>
+    <RootNamespace>winStudiez</RootNamespace>
     <AssemblyName>Windows 8 Application</AssemblyName>
-    <DefaultLanguage>de-DE</DefaultLanguage>
+    <DefaultLanguage>en</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>Windows 8 Application_TemporaryKey.pfx</PackageCertificateKeyFile>

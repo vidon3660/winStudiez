@@ -1,42 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-
-  <Identity Name="ea6923cb-73fb-4d43-8ded-2ff77868d4da"
-            Publisher="CN=Moritz"
-            Version="1.0.0.0" />
-
+  <Identity Name="ea6923cb-73fb-4d43-8ded-2ff77868d4da" Publisher="CN=Moritz" Version="0.0.1.1" />
   <Properties>
-    <DisplayName>Windows 8 Application</DisplayName>
-    <PublisherDisplayName>Moritz</PublisherDisplayName>
+    <DisplayName>winStudiez</DisplayName>
+    <PublisherDisplayName>SkyLapse</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.2.1</OSMinVersion>
     <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="App"
-        Executable="$targetnametoken$.exe"
-        EntryPoint="Windows_8_Application.App">
-        <VisualElements
-            DisplayName="Windows 8 Application"
-            Logo="Assets\Logo.png"
-            SmallLogo="Assets\SmallLogo.png"
-            Description="Windows 8 Application"
-            ForegroundText="light"
-            BackgroundColor="#464646">
-            <DefaultTile ShowName="allLogos" />
-            <SplashScreen Image="Assets\SplashScreen.png" />
-        </VisualElements>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="winStudiez.App">
+      <VisualElements DisplayName="winStudiez" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="The unofficial Windows implementation of iStudiez. This brings the user friendly school planner to Windows devices by also keeping all of the features of the full iStudiez." ForegroundText="light" BackgroundColor="#0580ff" ToastCapable="true">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#0580ff" />
+      </VisualElements>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <DeviceCapability Name="webcam" />
   </Capabilities>
 </Package>

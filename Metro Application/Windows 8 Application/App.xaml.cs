@@ -16,7 +16,7 @@ using Windows.UI.Xaml.Navigation;
 
 // Die Vorlage "Leere Anwendung" ist unter http://go.microsoft.com/fwlink/?LinkId=234227 dokumentiert.
 
-namespace Windows_8_Application
+namespace winStudiez
 {
     /// <summary>
     /// Stellt das anwendungsspezifische Verhalten bereit, um die Standardanwendungsklasse zu ergänzen.

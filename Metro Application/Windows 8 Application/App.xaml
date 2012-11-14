@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="Windows_8_Application.App"
+    x:Class="winStudiez.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Windows_8_Application">
+    xmlns:local="using:winStudiez">
 
     <Application.Resources>
         <ResourceDictionary>
